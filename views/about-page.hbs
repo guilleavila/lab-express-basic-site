@@ -1,0 +1,13 @@
+<div class="container">
+    <h1>{{name}} {{lastName}}</h1>
+    <p>Soy hija de: {{#each parents}} {{this}} {{/each}}</p>
+    <p>Mis hermanas son: </p>
+    <ul>
+        {{#each sisters}}
+        <li>{{this}}</li>
+        {{/each}}
+    </ul>
+
+    <h2>Y esta soy yo:</h2>
+    <p>{{description}}</p>
+</div>

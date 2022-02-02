@@ -1,0 +1,16 @@
+<div class="container">
+    <h1>Las siStars</h1>
+    <div class="row">
+        {{#each sisters}}
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <img class="sister-img"src="{{img}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{name}}{{lastName}}</h5>
+                    <p class="card-text">{{description}}</p>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
